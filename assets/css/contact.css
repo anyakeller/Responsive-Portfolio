@@ -1,0 +1,41 @@
+/* Contact Page-Specific CSS */
+/* W3 Schools helped me make it pretty*/
+input[type="text"],
+select {
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(151, 122, 26);
+    border-radius: 2px;
+    box-sizing: border-box;
+    background-color: #e5d5a0;
+}
+
+textarea {
+    width: 600px;
+    height: 500px;
+    padding: 12px 20px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid rgb(151, 122, 26);
+    border-radius: 2px;
+    box-sizing: border-box;
+    background-color: #e5d5a0;
+}
+
+input[type="submit"] {
+    width: 100px;
+    color: white;
+    padding: 14px 20px;
+    margin: 4px 0;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: #069da5;
+    font-family: "Special Elite", sans-serif;
+}
+
+input[type="submit"]:hover {
+    background-color: #069da5;
+}

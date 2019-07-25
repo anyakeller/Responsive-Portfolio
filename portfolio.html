@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!--Started July 14 11:00AM-->
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Anya Keller's Portfolio</title>
+        <link href="assets/css/reset.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+        <!-- Website standard CSS-->
+        <link
+            href="assets/css/photo_portfolio.css"
+            rel="stylesheet"
+            type="text/css"
+        />
+        <!-- Photo Portfolio-specific CSS-->
+        <link
+            href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div class="header">
+            Anya L. Keller's Portfolio
+        </div>
+        <!--Nav-->
+        <div id="navbar">
+            <div id="leftnav">
+                <a href="index.html">Anya Keller</a>
+            </div>
+            <div id="rightnav">
+                <a href="contact.html">Contact</a>
+                <a class="active" href="portfolio.html">Portfolio</a>
+                <a href="index.html">Home</a>
+            </div>
+        </div>
+        <!--The guts-->
+        <div id="content">
+            <section id="main">
+                <h2>Portfolio</h2>
+                <p>Me in all of my glory</p>
+                <!-- Gallery Grid Thing Thx W3 -->
+                <!--Gallery Resize-->
+                <p>Click Number to change collumn number!</p>
+                <button class="btn" value="1">1</button>
+                <button class="btn activebtn" value="2">2</button>
+                <button class="btn" value="4">4</button>
+                <!--Gallery-->
+                <div class="gallery_grid">
+                    <div class="row">
+                        <div class="column">
+                            <img
+                                src="assets/images/promJamesBond.jpg"
+                                alt="prom"
+                                style="width:100%"
+                            />
+                            <img
+                                src="assets/images/barf_bag_puppet.jpg"
+                                alt="barf"
+                                style="width:100%"
+                            />
+                            <img
+                                src="assets/images/mtGarbage.jpg"
+                                alt="trash"
+                                style="width:100%"
+                            />
+                        </div>
+                        <div class="column">
+                            <img
+                                src="assets/images/rusty_sits.jpg"
+                                alt="rustButt"
+                                style="width:100%"
+                            />
+                            <img
+                                src="assets/images/tree_hug.jpg"
+                                alt="treeHugger"
+                                style="width:100%"
+                            />
+                            <img
+                                src="assets/images/HSMoRoseWilsonDanielME.jpg"
+                                aslt="school"
+                                style="width:100%"
+                            />
+                        </div>
+                        <div class="column">
+                            <img
+                                src="assets/images/rusty_hug.jpg"
+                                alt="moarRust"
+                                style="width:100%"
+                            />
+                            <img
+                                src="assets/images/cousins_passover.jpg"
+                                alt="cousins"
+                                style="width:100%"
+                            />
+                            <img
+                                src="assets/images/unprofessional_me.jpg"
+                                alt="leg"
+                                style="width:100%"
+                            />
+                        </div>
+                        <div class="column">
+                            <img
+                                src="assets/images/Takei.jpg"
+                                alt="Takei"
+                                style="width:100%"
+                            />
+                            <img
+                                src="assets/images/strat.jpg"
+                                alt="robotics"
+                                style="width:100%"
+                            />
+                            <img
+                                src="assets/images/rusty_sits.jpg"
+                                alt="rustybutt"
+                                style="width:100%"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer>
+            Yeah I didn't know what to put here
+        </footer>
+        <!--jquerey CDN-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="assets/js/script.js"></script>
+        <!--Grid CSS -->
+        <script src="assets/js/photogrid.js"></script>
+    </body>
+</html>

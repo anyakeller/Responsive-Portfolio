@@ -1,2 +1,3 @@
 # Responsive-Portfolio
-A portfolio not utilizing Bootstrap.  For Columbia bootcamp.
+
+A portfolio utilizing media screen. For Columbia bootcamp.

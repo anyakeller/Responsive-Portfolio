@@ -1,0 +1,35 @@
+/* About Page body Styling */
+
+#s1_intro {
+    padding: 10px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+#intro_text {
+    margin: 10px;
+    display: block;
+    float: left;
+}
+
+#photo_me {
+    margin: 10px;
+}
+
+#silly_me {
+    display: block;
+    float: right;
+    transform: rotate(15deg);
+    z-index: 1;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#s2_lists {
+    position: relative;
+    top: 25px;
+    width: 100%;
+    display: block;
+    clear: both;
+}

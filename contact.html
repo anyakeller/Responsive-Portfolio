@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--Started July 14 11:00AM-->
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Anya Keller's Portfolio</title>
+        <link href="assets/css/reset.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+        <!-- Website standard CSS-->
+        <link href="assets/css/contact.css" rel="stylesheet" type="text/css" />
+        <!-- Contact Page-specific CSS-->
+        <link
+            href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div class="header">
+            Anya L. Keller's Portfolio
+        </div>
+        <!--Sticky Navbar-->
+        <div id="navbar">
+            <div id="leftnav">
+                <a href="index.html">Anya Keller</a>
+            </div>
+            <div id="rightnav">
+                <a class="active" href="contact.html">Contact</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="index.html">Home</a>
+            </div>
+        </div>
+        <!--The Guts-->
+        <div id="content">
+            <div class="section" id="main">
+                <h2>Contact ME!</h2>
+                <form id="form_thing">
+                    Name<br />
+                    <input type="text" name="name" placeholder="Norman Bates" />
+                    <br />
+                    <br />
+                    Email<br />
+                    <input
+                        type="text"
+                        name="email"
+                        placeholder="norman@batesmotel.com"
+                    />
+                    <br />
+                    <br />
+                    Message
+                    <br />
+                    <textarea
+                        name="message"
+                        style="width:600px; height:200px;"
+                        placeholder="Hello Mother"
+                    ></textarea>
+                    <br /><br />
+                    <input type="submit" />
+                </form>
+            </div>
+        </div>
+        <footer>
+            Yeah I didn't know what to put here
+        </footer>
+        <!--jquerey CDN-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
